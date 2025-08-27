@@ -1,0 +1,58 @@
+
+AllowShortBlocksOnASingleLine: Never
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: None
+AllowShortLoopsOnASingleLine: false             # M1SL
+AllowShortNamespacesOnASingleLine: false
+BitFieldColonSpacing: Both
+BreakBeforeBraces: Allman                       # L
+# BreakBeforeTemplateCloser: true
+BreakConstructorInitializers: BeforeComma
+ColumnLimit: 80                                 # LTL
+ContinuationIndentWidth: 4                      # INCONS
+Cpp11BracedListStyle: false
+EmptyLineBeforeAccessModifier: Always   
+FixNamespaceComments: true                      
+IncludeBlocks: Regroup
+IncludeCategories:                              # IF
+  - Regex:           '^".*"$'
+    Priority:        1
+  - Regex:           '^<.*>$'
+    Priority:        2
+  - Regex:           '.*'
+    Priority:        3
+IndentCaseBlocks: true
+IndentCaseLabels: true
+IndentWidth: 4                            
+# InsertNewlineAtEOF: true
+# KeepFormFeed: false
+Language: Cpp
+# LineEnding: LF
+PointerAlignment: Right                         # PRAR
+QualifierAlignment: Right                       # COAT
+ReferenceAlignment: Right                       # PRAR
+ReflowComments: Never
+# RemoveBracesLLVM: true        # unfortunately, the below check doesn't work quite as we want, otherwise it would be PERL
+# RemoveEmptyLinesInUnwrappedLines: true
+# RemoveParentheses: 
+SeparateDefinitionBlocks: Always
+ShortNamespaceLines: 1 # default value used
+SpaceAfterLogicalNot: false                     # BABO
+SpaceAfterTemplateKeyword: true                 # BAK
+SpaceAroundPointerQualifiers: After             # PRAR, COAT
+SpaceBeforeAssignmentOperators: true            # BABO
+# SpaceBeforeInheritanceColon: true             
+SpaceBeforeParens: ControlStatements            # BAK
+# SpaceBeforeRangeBasedForLoopColon: true
+SpaceBeforeSquareBrackets: false                # BAK
+# SpacesBeforeTrailingComments: 1
+SpacesInAngles: Never                           
+# SpacesInLineCommentPrefix:
+#   Minimum: 1
+#   Maximum: -1
+SpacesInSquareBrackets: false   
+Standard: Latest
+UseTab: Never                                   # TABS
+
